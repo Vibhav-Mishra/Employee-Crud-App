@@ -1,0 +1,113 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 5%;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+.myform > div {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.myform input {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+
+}
+
+.myform button {
+    all: unset;
+    background-color: orange;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #fff;
+    float: right;
+}
+.myform button:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    opacity: 0.8;
+}
+.deleteButton:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    opacity: 0.8;
+}
+
+
+nav{
+    background: orange;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+nav >h3{
+    font-family: cursive !important;
+    font-size: 25px;
+}
+#reset{
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px;
+    background-color: darkgray;
+}
+
+table{
+    margin-left: -25px;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 20px -9px;
+}
+table > thead{
+    background-color: rgba(255, 166, 0, 0.123);
+    height: 35px;
+    
+}
+tbody>tr > td{
+    text-align: center;
+    /* border-bottom: 0.5px solid lightgray; */
+    padding: 16px;
+}
+ td > button {
+    all: unset;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+ }
+
+.Search{
+    margin-left: -23px;
+    width: 25%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 17px;
+    }
+
+#h4{
+    text-align: center;
+    padding: 20px;
+}
+
+.deleteButton {
+    all: unset;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index:999;
+    color: #fff;
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
